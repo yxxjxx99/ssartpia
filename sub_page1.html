@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공연</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/sub_page1.css">
+    <link rel="icon" href="img/icon/logo_kr.svg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/mobile_sub1.css" media="all and (max-width: 600px)">
+  
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <!-- header -->
+    <header>
+      <div class="header_area">
+        <h1 class="logo">
+          <a href="index.html">
+            <img src="img/icon/logo_kr.svg" alt="">
+          </a>
+        </h1>
+        <div class="header_box">
+          <a href="#" class="language">English Ver. <img src="img/icon/icon_browser.svg" alt=""></a>
+          <ul class="login">
+            <li>
+              <a href="#">로그인</a>
+            </li>
+            <li>
+              <a href="#">회원가입</a>
+            </li>
+          </ul>
+          <a href="#" class="ONTPIA"><span>가상미술관</span>ONTPIA</a>
+          <a href="#" class="reserve"><span>공연</span>예매하기</a>
+        </div>
+        <nav>
+          <ul class="gnb">
+            <li>
+              <a href="sub_page1.html">공연<br><span>PERFORMANCE</span></a>
+              <ul class="active">
+                <li>
+                  <a href="sub_page1.html">기획공연</a>
+                  <a href="#">공연일정</a>
+                  <a href="#">티켓예매</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="sub_page2.html">전시<br><span>EXHIBITION</span></a>
+              <ul class="active">
+                <li>
+                  <a href="sub_page2.html">기획전시</a>
+                  <a href="#">전시일정</a>
+                  <a href="#">미술작품대여제</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">예술아카데미<br><span>ACADEMY</span></a>
+              <ul class="active">
+                <li>
+                  <a href="#">수강신청</a>
+                  <a href="#">E-Book</a>
+                  <a href="#">나의강좌</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">대관안내<br><span>RENTAL INFO</span></a>
+              <ul class="active">
+                <li>
+                  <a href="#">공연대관</a>
+                  <a href="#">전시대관</a>
+                  <a href="#">온라인 대관신청</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">뉴스·소식<br><span>NEWS</span></a>
+              <ul class="active">
+                <li>
+                  <a href="#">알림마당</a>
+                  <a href="#">언론보도</a>
+                  <a href="#">갤러리</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="sub_page3.html">커뮤니티<br><span>COMMUNITY</span></a>
+              <ul class="active">
+                <li>
+                  <a href="sub_page3.html">회원제도</a>
+                  <a href="#">1:1고객센터</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="sub_page4.html">기관소개<br><span>INSTITUTION</span></a>
+              <ul class="active">
+                <li>
+                  <a href="sub_page4.html">아트피아소개</a>
+                  <a href="#">상주예술단체</a>
+                  <a href="#">시설소개</a>
+                  <a href="#">오시는 길</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="header_menu">
+          <button class="search_btn">
+            <img src="img/icon/icon_search.svg" alt="">
+          </button>
+          <div class="btn_x">
+            <a class="menu-trigger" href="#">
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <!-- search_area -->
+    <div class="search_area">
+      <div class="search_top">
+        <div class="search_logo">
+          <img src="img/icon/logo_kr.svg" alt="">
+        </div>
+        <div class="search_xBtn">
+          <a class="Xmenu-trigger" href="#">
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+        </div>
+        <div class="search_bottom">
+          <div class="input_box">
+            <input type="text" placeholder="검색어를 입력해주세요.">
+            <img src="img/icon/icon_search.svg" alt="">
+          </div>
+          <p>문화인을 위한 공간, 수성아트피아</p>
+          <ul>
+            <li>
+              <a href="#">
+                #공연일정보기
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                #티켓예매
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                #예술아카데미
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                #수강신청
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- gnb_menu -->
+      <div class="full_menu_area">
+            <div class="full_menu">
+            <div class="full_menu1">
+                <img src="img/icon/logo_kr.svg" alt="">
+            </div>
+            <div class="full_menu2">
+                <ul>
+                <li>
+                    <a href="sub_page1.html">
+                    <span>PERFORMANCE</span><br>
+                    공연
+                    </a>
+                </li>
+                <li>
+                    <a href="sub_page2.html">
+                    <span>EXHIBITION</span><br>
+                    전시
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <span>ACADEMY</span><br>
+                    예술아카데미
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <span>RENTAL INFO</span><br>
+                    대관안내
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <span>NEWS</span><br>
+                    뉴스&middot;소식
+                    </a>
+                </li>
+                <li>
+                    <a href="sub_page3.html">
+                    <span>COMMUNITY</span><br>
+                    커뮤니티
+                    </a>
+                </li>
+                <li>
+                    <a href="sub_page4.html">
+                    <span>INSTITUTION</span><br>
+                    기관소개
+                    </a>
+                </li>
+                </ul>
+            </div>
+            <div class="full_menu3">
+                <img src="img/img_full1.jpg" alt="">
+            </div>
+            <div class="full_menu4">
+                <img src="img/img_full2.jpg" alt="">
+            </div>
+            <div class="full_menu5">
+                <div class="full_xBtn">
+                <a class="full-menu-trigger" href="#">
+                    <span></span>
+                    <span></span>
+                </a>
+                </div>
+                <img src="img/img_full3.jpg" alt="">
+                <div class="full_login">
+                <ul>
+                    <li>
+                    <a href="#">로그인</a>
+                    </li>
+                    <li>
+                    <a href="#">회원가입</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </div>
+      </div>
+
+      <!-- sns -->
+      <div class="sns">
+        <ul>
+          <li>
+            <a href="#"><img src="img/icon/facebook_icon.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/icon/youtube_icon.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/icon/instagram_icon.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/icon/blog_icon.png" alt=""></a>
+          </li>
+        </ul>
+      </div>
+      <!-- //sns -->
+
+      <!-- lnb -->
+      <div class="lnb_area">
+            <div class="lnb">
+                <div class="lnb_home">
+                    <a href="index.html">
+                        <img src="sub_img/icon/home.png" alt="">
+                    </a>
+                </div>
+                <div class="lnb_title">공연</div>
+                <div class="lnb_sub">
+                    <a href="#">기획공연<span class="material-symbols-outlined">
+                        expand_more
+                        </span></a>
+                    <div class="lnb_sub_title">
+                        <ul>
+                            <li><a href="sub_page1.html">기획공연</a></li>
+                            <li><a href="#">공연일정</a></li>
+                            <li><a href="#">티켓에매</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+      </div>
+
+      <!-- content -->
+      <div class="contents_area">
+          <div class="contents">
+            <div class="main_title">
+              <span>PERFORMANCE</span>
+              <h1>기획공연</h1>
+            </div>
+            <div class="contents_board">
+              <ul>
+                <li>
+                  <a href="#">
+                    <div class="board_img">
+                      <img src="sub_img/board1.jpg" alt="">
+                    </div>
+                    <div class="board_text">
+                      <p class="title">아트피-아티스트Ⅲ &lt;박수예 바이올린 리사이틀&gt;</p>
+                      <p class="date">2023.09.19.화 ~ 2023.09.19.(화)19:30</p>
+                      <p class="local"><img src="sub_img/icon/icon_location.svg" alt="">소극장</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="board_img">
+                      <img src="sub_img/board2.jpg" alt="">
+                    </div>
+                    <div class="board_text">
+                      <p class="title">지역 청년음악가 지원 프로그램Ⅴ Brillante</p>
+                      <p class="date">2023.09.21.목 ~ 2023.09.21.(목)19:30</p>
+                      <p class="local"><img src="sub_img/icon/icon_location.svg" alt="">소극장</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="board_img">
+                      <img src="sub_img/board3.jpg" alt="">
+                    </div>
+                    <div class="board_text">
+                      <p class="title">지역 청년음악가 지원 프로그램Ⅵ RAINBOW</p>
+                      <p class="date">2023.09.22.금 ~ 2023.09.22.(금)19:30</p>
+                      <p class="local"><img src="sub_img/icon/icon_location.svg" alt="">소극장</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="board_img">
+                      <img src="sub_img/board4.jpg" alt="">
+                    </div>
+                    <div class="board_text">
+                      <p class="title">모나코 몬테카를로 발레단 &lt;로미오와 줄리엣&gt;</p>
+                      <p class="date">2023.10.07.토 ~ 2023.10.08.(일)17:00</p>
+                      <p class="local"><img src="sub_img/icon/icon_location.svg" alt="">소극장</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="board_img">
+                      <img src="sub_img/board5.jpg" alt="">
+                    </div>
+                    <div class="board_text">
+                      <p class="title">2023 수성아트피아 문화가 있는 날 「음악, 이야기에 담다」</p>
+                      <p class="date">2023.10.25.수 ~ 2023.10.25.(수)19:30</p>
+                      <p class="local"><img src="sub_img/icon/icon_location.svg" alt="">소극장</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="board_img">
+                      <img src="sub_img/board6.jpg" alt="">
+                    </div>
+                    <div class="board_text">
+                      <p class="title">김정원 피아노 리사이틀</p>
+                      <p class="date">2023.10.28.토 ~ 2023.10.28.(토)17:00</p>
+                      <p class="local"><img src="sub_img/icon/icon_location.svg" alt="">소극장</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="board_img">
+                      <img src="sub_img/board7.jpg" alt="">
+                    </div>
+                    <div class="board_text">
+                      <p class="title">국립합창단 &lt;베르디 레퀴엠&gt;</p>
+                      <p class="date">2023.11.03.금 ~ 2023.11.03.(금)19:30</p>
+                      <p class="local"><img src="sub_img/icon/icon_location.svg" alt="">소극장</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="board_img">
+                      <img src="sub_img/board8.jpg" alt="">
+                    </div>
+                    <div class="board_text">
+                      <p class="title">정명훈, 임윤찬 & 뮌헨 필하모닉</p>
+                      <p class="date">2023.11.24.금 ~ 2023.11.24.(금)19:30</p>
+                      <p class="local"><img src="sub_img/icon/icon_location.svg" alt="">소극장</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="pagination">
+              <div class="page_control_prev">
+                <a href="#">
+                  <span class="material-symbols-outlined">
+                    first_page
+                    </span>
+                </a>
+              </div>
+              <div class="num_btn">
+                <ul>
+                  <li class="num_act">
+                    <a href="#">1</a>
+                  </li>
+                  <li>
+                    <a href="#">2</a>
+                  </li>
+                  <li>
+                    <a href="#">3</a>
+                  </li>
+                  <li>
+                    <a href="#">4</a>
+                  </li>
+                  <li>
+                    <a href="#">5</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="page_control_next">
+                <a href="#">
+                  <span class="material-symbols-outlined">
+                    chevron_right
+                  </span>
+                </a>
+                <a href="#" class="page_control_next_last">
+                  <span class="material-symbols-outlined">
+                    last_page
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <!-- footer -->
+      <div class="footer_area">
+        <!-- footer_top -->
+        <div class="footer_top">
+          <div class="fot_top1">
+            <img src="img/icon/logo_kr.svg" alt="">
+            <p class="">대구 수성구 무학로 180</p>
+            <p class="footer_copy">COPYRIGHT&copy; SUSEONG ARTPIA<br>
+              ALL RIGHTS RESERVED. BY KOWEB.</p>
+          </div>
+          <div class="fot_top2">
+            <ul>
+              <li>
+                <a href="#">
+                  개인정보처리방침
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  이용약관
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  이메일무단수집거부
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  찾아오시는 길
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="fot_top3">
+            <ul>
+              <li>
+                <a href="#">
+                  공연안내
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  전시안내
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  예술 아카데미
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  대관안내
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="fot_top4">
+            <ul>
+              <li>
+                <a href="#">
+                  로그인
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  회원가입
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  예매하기
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  예매확인
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="fot_top5">
+            <button class="fot_btn">
+              FAMILY SITE<span>▼</span>
+            </button>
+            <ul>
+              <li>
+                <a href="#">
+                  수성구청
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  수성문화재단
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  범어도서관
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  용학도서관
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  고산도서관
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- footer_bottom -->
+        <div class="footer_bottom">
+          <div class="fot_bottom">
+            <p class="user_num">사업자번호. <span>502-82-20323</span></p>
+            <p class="tel_num">전화번호. <span>053-668-1800</span>
+            <p class="fax">팩스. <span>053-666-3259</span></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</body>
+</html>
